@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#fff0f4">
+<title>For My Surashreeta ♡</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&display=swap');
+  :root{--ink:#572b3d;--rose:#e86b91;--pink:#fff0f4;--deep:#b83e68}
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{margin:0;min-height:100vh;color:var(--ink);font-family:'DM Sans',sans-serif;background:radial-gradient(ellipse at 15% 15%,#ffe0e9 0,transparent 38%),radial-gradient(ellipse at 85% 80%,#fbd5e2 0,transparent 35%),linear-gradient(135deg,#fff8fa,#ffeef3);overflow-x:hidden}
+  .glow{position:fixed;width:340px;height:340px;border-radius:50%;filter:blur(75px);opacity:.35;pointer-events:none;animation:drift 12s ease-in-out infinite alternate}
+  .g1{background:#ff9db9;top:-130px;right:-100px}.g2{background:#ffc4d5;bottom:-170px;left:-130px;animation-delay:-5s}
+  @keyframes drift{to{transform:translate(55px,45px) scale(1.18)}}
+  .wrap{position:relative;z-index:1;width:min(900px,92%);margin:auto;padding:38px 0 60px}
+  nav{display:flex;justify-content:space-between;align-items:center;font-size:.82rem;letter-spacing:.12em;text-transform:uppercase;color:#a65c77}
+  .brand{font-weight:700}.tiny-heart{color:var(--rose);font-size:1.2rem}
+  .hero{min-height:78vh;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:55px 10px 35px}
+  .eyebrow{font-size:.78rem;letter-spacing:.22em;text-transform:uppercase;color:#b65d7b;margin-bottom:18px;animation:rise .9s both}
+  h1{font-family:'Playfair Display',serif;font-size:clamp(3.4rem,10vw,7rem);line-height:1.02;margin:0;color:#7a3452;font-weight:600;animation:rise 1s .12s both}
+  h1 span{display:block;font-style:italic;color:#dc6b91}
+  .hero p{max-width:560px;font-size:clamp(1rem,2.5vw,1.15rem);line-height:1.85;color:#80566a;margin:25px auto 28px;animation:rise 1s .25s both}
+  .heart-orbit{width:94px;height:94px;border:1px solid #f0a9bf;border-radius:50%;display:grid;place-items:center;margin-bottom:27px;position:relative;animation:float 3.5s ease-in-out infinite}
+  .heart-orbit:before,.heart-orbit:after{content:"";position:absolute;inset:-8px;border:1px solid #f5c4d2;border-radius:50%;animation:pulse 2.5s infinite}
+  .heart-orbit:after{inset:-17px;animation-delay:.8s}
+  .heart{font-size:2.8rem;color:#e66d92;filter:drop-shadow(0 5px 9px #e66d9255);animation:beat 1.15s infinite}
+  @keyframes beat{0%,100%{transform:scale(1)}15%{transform:scale(1.18)}30%{transform:scale(1)}45%{transform:scale(1.1)}}
+  @keyframes pulse{0%{transform:scale(.9);opacity:.8}100%{transform:scale(1.25);opacity:0}}
+  @keyframes float{50%{transform:translateY(-9px)}}
+  @keyframes rise{from{opacity:0;transform:translateY(24px)}to{opacity:1;transform:translateY(0)}}
+  .button{border:0;border-radius:999px;padding:15px 25px;background:linear-gradient(120deg,#e77a9b,#c94e78);color:white;font:600 .95rem 'DM Sans';box-shadow:0 12px 28px #c94e7838;cursor:pointer;transition:.25s;animation:rise 1s .4s both}
+  .button:hover{transform:translateY(-3px);box-shadow:0 16px 30px #c94e7850}
+  .button:active{transform:scale(.98)}
+  .scroll{margin-top:35px;color:#b47a8e;font-size:.75rem;letter-spacing:.16em;text-transform:uppercase}
+  .scroll:after{content:"↓";display:block;font-size:1.2rem;margin-top:8px;animation:float 1.5s infinite}
+  .letter{background:#ffffffb8;border:1px solid #fff;border-radius:28px;padding:clamp(25px,6vw,54px);box-shadow:0 20px 70px #9d4d6a13;backdrop-filter:blur(12px);margin:10px auto 35px;max-width:740px}
+  .letter .small{font-size:.75rem;letter-spacing:.18em;text-transform:uppercase;color:#c06c89;text-align:center}
+  h2{font:600 clamp(2rem,5vw,3rem) 'Playfair Display',serif;text-align:center;margin:13px 0 24px;color:#793a55}
+  .letter p{font-size:1.02rem;line-height:1.95;color:#765365;margin:15px 0}
+  .signature{font:italic 1.55rem 'Playfair Display',serif;color:#d45e86;text-align:right;margin-top:28px}
+  .promise{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin:35px 0}
+  .promise div{background:#fff9fbad;border:1px solid #fff;border-radius:20px;padding:22px 16px;text-align:center}
+  .promise b{display:block;font:600 1.15rem 'Playfair Display',serif;margin:9px 0 6px}
+  .promise span{font-size:.86rem;line-height:1.6;color:#8c6879}
+  .promise .ico{font-size:1.5rem}
+  .ending{text-align:center;padding:30px 10px 10px}
+  .ending h2{margin-bottom:10px}.ending p{color:#8a6375;line-height:1.8}
+  footer{text-align:center;color:#b88a9c;font-size:.78rem;margin-top:35px}
+  .float-heart{position:fixed;bottom:-30px;z-index:0;pointer-events:none;color:#e8799b;opacity:0;animation:floatUp linear forwards}
+  @keyframes floatUp{0%{transform:translateY(0) rotate(0);opacity:0}10%{opacity:.65}90%{opacity:.45}100%{transform:translateY(-110vh) rotate(35deg);opacity:0}}
+  .surprise{display:none;margin:25px auto 0;padding:20px;border-radius:18px;background:#fff1f5;color:#8a3e5d;max-width:480px;line-height:1.8;animation:rise .6s both}
+  .surprise.show{display:block}
+  @media(max-width:620px){.wrap{padding-top:25px}.hero{min-height:76vh}.promise{grid-template-columns:1fr}.promise div{padding:18px}.letter{border-radius:22px}.letter p{font-size:.96rem}}
+  @media(prefers-reduced-motion:reduce){*,*:before,*:after{animation-duration:.01ms!important;animation-iteration-count:1!important;scroll-behavior:auto!important}}
+</style>
+</head>
+<body>
+<div class="glow g1"></div><div class="glow g2"></div>
+<main class="wrap">
+  <nav><div class="brand">A little note for you</div><div class="tiny-heart">♡</div></nav>
+  <section class="hero">
+    <div class="heart-orbit"><div class="heart">♥</div></div>
+    <div class="eyebrow">Made with all my heart</div>
+    <h1>Hey, <span>Surashreeta</span></h1>
+    <p>I know I messed up, and I know a pretty webpage can't magically fix that. But I wanted to make something just for you, and tell you how much you mean to me.</p>
+    <button class="button" onclick="document.getElementById('letter').scrollIntoView({behavior:'smooth'})">A message from my heart ↓</button>
+    <div class="scroll">There's more below</div>
+  </section>
+
+  <section class="letter" id="letter">
+    <div class="small">A little something I want you to know</div>
+    <h2>I'm truly sorry. ♡</h2>
+    <p>My dearest Surashreeta,</p>
+    <p>I'm really sorry for making you angry and for hurting your feelings. I may not have handled things the way I should have, and I don't want to make excuses for that. Your feelings matter to me, and I should have been more thoughtful.</p>
+    <p>I love you—not just on the easy, happy days, but also when things are difficult and we don't see eye to eye. You are so special to me, and the last thing I ever want is to make you feel unappreciated.</p>
+    <p>I love you the way you are right now, please don't hate me I love you so much that I cannot explain. I love you and always will love you</p>
+    <p>Thank you for being with me and choosing me. Though I act immature even though I am the older one but I love your smile, your little ways, and all the moments that become special simply because they're with you.</p>
+    <div class="signature">With all my love, always ♡</div>
+  </section>
+
+  <section class="promise">
+    <div><div class="ico">♡</div><b>I'll listen</b><span>Your feelings deserve my attention, not excuses.</span></div>
+    <div><div class="ico">🌷</div><b>I'll learn</b><span>I'll try to understand what hurt you and do better.</span></div>
+    <div><div class="ico">✨</div><b>I'll show it</b><span>Not only with words, but with thoughtful actions.</span></div>
+  </section>
+
+  <section class="ending">
+    <h2>One last little thing…</h2>
+    <p>Please Forgive me as I will be really sad if you don't.<br>Lots of pressure and Just a whole lot of love.</p>
+    <button class="button" id="surpriseBtn" onclick="showSurprise()">Tap for a tiny hug 🤍</button>
+    <div class="surprise" id="surprise">Sending you the biggest, warmest virtual hug. 🫂<br>I'm sorry, Surashreeta. I love you. ♡</div>
+  </section>
+  <footer>Made by your Husband Deaptayan especially for Surashreeta · with love, and a sincere apology ♡</footer>
+</main>
+<script>
+  function showSurprise(){
+    document.getElementById('surprise').classList.add('show');
+    document.getElementById('surpriseBtn').textContent='A hug, whenever you need one ♡';
+    burstHearts(18);
+  }
+  function burstHearts(count){
+    const symbols=['♡','♥','✿','💕'];
+    for(let i=0;i<count;i++){
+      const el=document.createElement('span');
+      el.className='float-heart';
+      el.textContent=symbols[Math.floor(Math.random()*symbols.length)];
+      el.style.left=(Math.random()*100)+'vw';
+      el.style.fontSize=(14+Math.random()*22)+'px';
+      el.style.animationDuration=(4+Math.random()*4)+'s';
+      el.style.animationDelay=(Math.random()*.7)+'s';
+      document.body.appendChild(el);
+      setTimeout(()=>el.remove(),9000);
+    }
+  }
+  // A gentle drift of hearts, kept subtle so the message stays in focus.
+  setInterval(()=>{if(Math.random()>.45)burstHearts(1)},2200);
+</script>
+</body>
+</html>
